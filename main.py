@@ -82,10 +82,10 @@ def clean_filename(filename, whitelist=valid_filename_chars, replace=' '):
         print("Warning, filename truncated because it was over {}. Filenames may no longer be unique".format(char_limit))
     return cleaned_filename[:char_limit]   
 
-email_id = 'chirayuprasai11@gmail.com'
-pwd = 'fbxacwjlmwpbiatk'
+email_id = 'test@email.com'
+pwd = '123456789'
 
-email_white_list = ['chirayuprasai5@gmail.com']
+email_white_list = ['whitelisted.email1.com', 'whilelisted.email2.com']
 
 file_path = 'attachments'
 
